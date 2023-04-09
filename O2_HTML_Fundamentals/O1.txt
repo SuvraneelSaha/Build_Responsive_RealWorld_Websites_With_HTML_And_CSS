@@ -1,0 +1,8 @@
+what we learned in the O3 HTML Document structure 
+1] The html element is the parent element of both head and body elements
+2] the head and the body elements are both child elements to the html element
+3] <!DOCTYPE html> --> this specifies that the type of the Document is of html to the browser
+4] the head and the body elements are necessary in the html file 
+5] In the head element --> the things which are present will not be be rendered directly on the webpage 
+6] in the body element --> whatever things that are present will be rendered directly on the webpage
+7] 
