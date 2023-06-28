@@ -1,33 +1,37 @@
 h1{
   color: red;
   font-size: 26px;
-  font-family: sans-serif;
+  
   text-transform: uppercase;
   /* converts all the letters into alphabets */
   font-style: italic;
 }
 /* we can create a list of css selectors which have the same css properties and values and we can group them together  */
+h1,h2,h3,h4,li,p{
+  font-family: sans-serif;
+}
+
 
 h2{
   font-size: 40px;
-  font-family: sans-serif;
+  
 }
 
 p{
   font-size: 22px;
   line-height: 1.5;
-  font-family: sans-serif;
+  
 }
 
 h3{
   font-size: 30px;
-  font-family: sans-serif;
+  
 }
 
 h4{
 
   font-size: 20px;
-  font-family: sans-serif;
+  
   text-transform: uppercase;
   text-align: center;
 
@@ -35,8 +39,25 @@ h4{
 
 li{
   /* here we style the li ie list items not the parent elements like ul or ol  */
-  font-family: sans-serif;
+ 
   /* by default the font-size is 16px as per the browser default settings */
   font-size:20px ;
 
 }
+
+/* by convention the text in the footer section needs to be smaller than the rest of the text in the website or in the document  */
+footer p{
+  font-size: 16px;
+}
+/* this way of writing css selectors is known as descendant selectors as the p elements are the children elements of the footer element  */
+
+/* for testing purpose */
+
+article header p{
+  font-style: italic;
+}
+/* this is not a good robust approach to  */
+/* this is known as nested descendant selectors  */
+/* we are now encoding more and more html elements in the css 
+it is not a good way to write css as if we may the html it will be a problem  */
+
