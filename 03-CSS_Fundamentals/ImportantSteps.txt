@@ -12,4 +12,11 @@ then that will definately create a huge problem for us
 so we should not be using the html selectors in this way rather we can 
 use class id and names of html elements
 
+ why we rarely use ids and often use classes 
+the reason is that ids can be used for only one element wherease we can use 
+classes for many different elements . 
+and by doing that we are making our code future proof so that whenever we 
+want to add something similar to that we can just use the class attribute and put 
+the same name and in this way the same styling will be added  
+
 
