@@ -2,3 +2,4 @@ text-transform property
 font-style property
 font-family property
 
+The default text size is 16px as per the browsers

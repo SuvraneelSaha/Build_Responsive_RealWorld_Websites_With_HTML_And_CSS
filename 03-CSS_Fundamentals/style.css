@@ -6,6 +6,7 @@ h1{
   /* converts all the letters into alphabets */
   font-style: italic;
 }
+/* we can create a list of css selectors which have the same css properties and values and we can group them together  */
 
 h2{
   font-size: 40px;
@@ -37,5 +38,5 @@ li{
   font-family: sans-serif;
   /* by default the font-size is 16px as per the browser default settings */
   font-size:20px ;
-  
+
 }
