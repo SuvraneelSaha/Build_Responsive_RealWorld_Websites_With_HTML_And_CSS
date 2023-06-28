@@ -53,11 +53,52 @@ footer p{
 
 /* for testing purpose */
 
-article header p{
+/* article header p{
   font-style: italic;
-}
+} */
+
+/* not needed */
+
 /* this is not a good robust approach to  */
 /* this is known as nested descendant selectors  */
 /* we are now encoding more and more html elements in the css 
 it is not a good way to write css as if we may the html it will be a problem  */
 
+#author{
+  font-style: italic;
+  font-size: 18px;
+
+}
+
+/*  # is used for id selector  */
+
+/* we can also assign the elements via classes  */
+/* the main difference between id and classes is that we can repeat classes 
+whereas in case of id we cannot - ids are used for unique elements only 
+whereas when we need to group elements we use classes  */
+
+#copyright{
+  font-size: 16px;
+  text-align: center;
+}
+
+.related_author{
+  font-size: 18px;
+  font-weight:bold;
+}
+/* Now the question may come to our mind that we have defined many css rules
+so which one will be applied - the short answer is all the css rules will be applied 
+
+PS we will be learning that in the next video :) */
+
+.related{
+  list-style: none;
+  
+}
+
+/* why we rarely use ids and often use classes 
+the reason is that ids can be used for only one element wherease we can use 
+classes for many different elements . 
+and by doing that we are making our code future proof so that whenever we 
+want to add something similar to that we can just use the class attribute and put 
+the same name and in this way the same styling will be added  */

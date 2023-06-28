@@ -65,7 +65,7 @@
           <img src="./img/laura-jones.jpg" alt="laura-jones" >
           <!-- for the width and height use half of the actual resolution like example 
           1000x1200 means height = 500 and width = 600  -->
-          <p>
+          <p id="author">
             Posted by <strong>Laura Jones</strong> on Monday, June 24th 2023
           </p>
           <img src="./img/post-img.jpg" alt="post-img">
@@ -139,13 +139,13 @@
         <h4>
           Related posts
         </h4>
-        <ul>
+        <ul class="related">
           <li>
             <img src="./img/related-1.jpg" alt="related-1" width="250" height="250">
             <a href="index.html" target="_self">
               How to Learn Web Development
             </a>
-            <p>
+            <p class="related_author">
               By Jonas Schmedtmann
             </p>
           </li>
@@ -154,7 +154,7 @@
             <a href="index.html" target="_self">
               The Unknown Powers of CSS
             </a>
-            <p>
+            <p class="related_author">
               By Jim Dillon
             </p>
           </li>
@@ -163,7 +163,7 @@
             <a href="index.html" target="_self">
               Why JavaScript is Awesome
             </a>
-            <p>
+            <p class="related_author">
               By Matilda
             </p>
           </li>
@@ -172,7 +172,7 @@
   </aside>
 
   <footer>
-    <p>
+    <p id="copyright">
       Copyright &copy; 2023 by The Code Magazine.
       <!-- we can use p tag also and here we are using it  -->
     </p>
