@@ -9,8 +9,12 @@ h1{
 /* we can create a list of css selectors which have the same css properties and values and we can group them together  */
 h1,h2,h3,h4,li,p{
   font-family: sans-serif;
+  color: #444;
 }
 
+h1,h2,h3{
+  color: #1098ad;
+}
 
 h2{
   font-size: 40px;
@@ -80,6 +84,10 @@ whereas when we need to group elements we use classes  */
 #copyright{
   font-size: 16px;
   text-align: center;
+  color: #216cdc;
+  color: rgb(69, 69, 69);
+  /* when there are two definations
+  it will simply use the last one   */
 }
 
 .related_author{
@@ -102,3 +110,76 @@ classes for many different elements .
 and by doing that we are making our code future proof so that whenever we 
 want to add something similar to that we can just use the class attribute and put 
 the same name and in this way the same styling will be added  */
+
+.main_header{
+  background-color: #e1e1e1;
+  /* the grey color is present on the left hand side of the color picker 
+  present in the vs code  */
+
+  border-left: 3px solid #1098ad;
+  border-right: 3px solid #1098ad;
+  border-radius: 5px;
+  /* font-weight: bold; */
+}
+
+aside{
+  /* this is the element selector 
+  when we write the html element directly in the css  */
+
+  background-color: #e1e1e1;
+  
+  border-top : 5px solid #1098ad;
+  /* this is known as shorthand property where we can write multiple 
+  css properties in one property  */
+  border-bottom: 5px solid #1098ad;
+
+  border-radius: 10px;
+
+
+  border-left: 5px solid #909090;
+  
+  border-right: 5px solid #909090;
+
+  
+}
+
+/* .first_li{
+  font-weight: bold;
+
+} */
+
+
+li:first-child{
+  font-weight: bold;
+}
+/* this above selector is known as pseudo child selector */
+
+/* this above example will only style the first child of the parent element ol  */
+
+li:last-child{
+  font-style: italic;
+}
+
+li:nth-child(even){
+  /* color: red; */
+}
+/* nth-child() is a pseudo child selector 
+and inside the parenthesis we can write even odd or a specific number  */
+
+
+article p:last-child
+{
+  color: red;
+}
+/* as we can see that inside the article element the p element is the last child 
+so for which it gets applied otherwise it would not  */
+
+article p:first-child{
+  color:red;
+}
+
+/* as you can see that inside the article the p is not the first child 
+whereas actually the header is the first child  so it wont work */
+
+/*  if we put a p element which is actually the first child of the article then it will work  */
+

@@ -19,4 +19,29 @@ and by doing that we are making our code future proof so that whenever we
 want to add something similar to that we can just use the class attribute and put 
 the same name and in this way the same styling will be added  
 
+There are two mainly two types to define colors in css 
+one is rgb/rgba and one is hexadecimal values
+
+the rgb stands for red green blue
+rgba means additional alpha which stands for transparency 
+
+ex - rgb(255,255,255) stands for white color
+and another example - rgba(255,255,255,1) means white color but transparent 
+the alpha value ranges from 0 to 1 (decimal) values
+
+in general case we use hexadecimal values 
+example #00ffff 
+shorthand way : #0ff if all the values of r g b are same 
+then we use the shorthand
+
+
+The theory of grey color 
+
+there are 256 pure grey colors 
+if the values match then it will become a grey color
+
+rgb(144,144,144) this is a grey color
+
+
+Font weight is used for boldness of the text or alphabets
 
